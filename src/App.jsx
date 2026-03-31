@@ -8,7 +8,7 @@ import Hero from "./components/Hero";
 import UserRating from './components/UserRating'
 import CardContainer from './components/CardContainer'
 import GetStarted from './components/GetStarted'
-import Pricing from './components/Pricing'
+import PackagePricing from './components/PackagePricing'
 import Footer from './components/Footer'
 const items = fetch('/data.json')
   .then(res => res.json())
@@ -28,7 +28,7 @@ function App() {
 
       
       <GetStarted></GetStarted>
-      <Pricing></Pricing>
+      <PackagePricing></PackagePricing>
 
       <Footer></Footer>
 
