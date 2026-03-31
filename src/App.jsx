@@ -4,7 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from './components/Navbar'
-import Banner from './components/Banner'
+import Hero from "./components/Hero";
 import Rating from './components/Rating'
 import CardContainer from './components/CardContainer'
 import Started from './components/Started'
@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Navbar isAdded={isAdded} setIsAdded={setIsAdded}></Navbar>
-      <Banner></Banner>
+      <Hero></Hero>
       <Rating></Rating>
      
         <CardContainer items={items} isAdded={isAdded} setIsAdded={setIsAdded}></CardContainer>

@@ -3,7 +3,7 @@ import dot from "../images/dot.png"
 import { RxResume } from 'react-icons/rx'
 import banner from "../images/banner.png"
 
-export default function Banner() {
+export default function Hero() {
   return (
     <section className="max-w-[1600px] mx-auto my-10 px-3 flex flex-col-reverse lg:flex-row items-center justify-between gap-8">
 
