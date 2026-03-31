@@ -9,10 +9,10 @@ export default function CardContainer({items,isAdded, setIsAdded }) {
     const [isSelected, setIsSelected] = useState('products')
     const [isBuyed, setIsBuyed] = useState([])
     return (
-        <div className='my-10'>
+        <div className='my-20'>
             <div className='text-center max-w-[500px] mx-auto space-y-2'>
-                <h1 className='text-3xl font-bold'>Premium Digital Tools</h1>
-                <p>Choose from our curated collection of premium digital products designedto boost your productivity and creativity.</p>
+                <h1 className='text-5xl font-bold'>Premium Digital Tools</h1>
+                <p className='text-[#627382] py-3'>Choose from our curated collection of premium digital products designedto boost your productivity and creativity.</p>
                 <div className='gap-2 flex justify-center'>
 
                     <button onClick={() => setIsSelected('products')} className={`btn ${isSelected === 'products' ? "bg-linear-to-r from-blue-600 to-purple-500 text-white" : 'bg-white'} text-black rounded-2xl`}>Products</button>
