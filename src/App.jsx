@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Navigation from './components/Navigation'
 import Hero from "./components/Hero";
-import Rating from './components/Rating'
+import UserRating from './components/UserRating'
 import CardContainer from './components/CardContainer'
 import Started from './components/Started'
 import Pricing from './components/Pricing'
@@ -22,7 +22,7 @@ function App() {
     <>
       <Navigation isAdded={isAdded} setIsAdded={setIsAdded}></Navigation>
       <Hero></Hero>
-      <Rating></Rating>
+      <UserRating></UserRating>
      
         <CardContainer items={items} isAdded={isAdded} setIsAdded={setIsAdded}></CardContainer>
 
