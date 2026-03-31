@@ -7,7 +7,7 @@ import Navigation from './components/Navigation'
 import Hero from "./components/Hero";
 import UserRating from './components/UserRating'
 import CardContainer from './components/CardContainer'
-import Started from './components/Started'
+import GetStarted from './components/GetStarted'
 import Pricing from './components/Pricing'
 import Footer from './components/Footer'
 const items = fetch('/data.json')
@@ -27,7 +27,7 @@ function App() {
         <CardContainer items={items} isAdded={isAdded} setIsAdded={setIsAdded}></CardContainer>
 
       
-      <Started></Started>
+      <GetStarted></GetStarted>
       <Pricing></Pricing>
 
       <Footer></Footer>
