@@ -5,7 +5,7 @@
     "description": "Design impressive resumes with smart AI suggestions and sleek layouts.",
     "price": 11,
     "period": "monthly",
-    "tag": "trending",
+    "tag": "Trending",
     "tagType": "popular",
     "tagStyle": {
       "bgColor": "#FFE4E6",
@@ -23,7 +23,7 @@
     "description": "Build a stunning personal site with pre-built sections and easy hosting.",
     "price": 55,
     "period": "one-time",
-    "tag": "top rated",
+    "tag": "Top Rated",
     "tagType": "best seller",
     "tagStyle": {
       "bgColor": "#ECFDF5",
@@ -41,7 +41,7 @@
     "description": "Organize job applications and keep track of your hiring progress.",
     "price": 35,
     "period": "monthly",
-    "tag": "latest",
+    "tag": "Latest",
     "tagType": "new",
     "tagStyle": {
       "bgColor": "#EFF6FF",
@@ -59,7 +59,7 @@
     "description": "Instantly create personalized cover letters powered by AI tools.",
     "price": 18,
     "period": "yearly",
-    "tag": "hot",
+    "tag": "Hot",
     "tagType": "popular",
     "tagStyle": {
       "bgColor": "#FFF7ED",
@@ -77,7 +77,7 @@
     "description": "Enhance your professional profile to attract more recruiters.",
     "price": 17,
     "period": "monthly",
-    "tag": "top choice",
+    "tag": "Top Choice",
     "tagType": "best seller",
     "tagStyle": {
       "bgColor": "#F5F3FF",
@@ -95,7 +95,7 @@
     "description": "Get ready for interviews with guided practice and expert advice.",
     "price": 28,
     "period": "one-time",
-    "tag": "just launched",
+    "tag": "Just Launched",
     "tagType": "new",
     "tagStyle": {
       "bgColor": "#F0FDF4",
