@@ -1,5 +1,25 @@
-The name of this project is "DigiTools Platforms"
+# DigiTools
 
-I have created this project as a part of my web course "AI Powered Future Ready Web Dev" by Programming Hero Batch-13 and it is my assignment 6. This project is like an e-commerce website but no product is sold here. There are some services which I could buy from here.There is a pricing section , there are some cards has shown as a service. Each card has a button and after clicking the button that service will be added to the cart and the total price will be shown there. You can also delete a service from the cart and if you delete any service the price will be decrease.
+## Description
+DigiTools is a web-based platform that provides premium digital tools to improve productivity.  
+Users can explore tools like resume builders, AI writing assistants, and templates in one place.
 
-To make this project , I used......
+---
+
+## Technologies Used
+- HTML  
+- CSS / Tailwind CSS
+- JavaScript  
+- React
+
+---
+
+## Features
+1. Browse different digital tools and products  
+2. Clean and responsive user interface  
+3. Simple pricing and product display system  
+
+---
+
+## Conclusion
+This project helps users access useful digital tools easily and improves their workflow.
