@@ -5,11 +5,11 @@ import { toast } from 'react-toastify'
 export default function Cards({ card, isBuyed, setIsBuyed, isAdded, setIsAdded }) {
   // console.log(card)
   const [buyed, setBuyed] = useState(false)
-  const buyButton = ()=>{
+  const buyButton = () => {
     setBuyed(true)
     setIsBuyed([...isBuyed, card])
     setIsAdded([...isAdded, card])
-    toast.success(`${card.name} has added to the cart` );
+    toast.success(`${card.name} has added to the cart`);
 
   }
   return (
@@ -18,9 +18,21 @@ export default function Cards({ card, isBuyed, setIsBuyed, isAdded, setIsAdded }
       <div className='flex justify-between'>
 
         <img src={card.image} alt="" className='h-[50px] w-fit' />
-        <span className=
-        {`${card.tag === 'new' ? 'bg-green-400 text-green-800' : card.tag === 'popular' ? 'bg-purple-400 text-purple-800' : card.tag=== 'best seller' ? 'bg-yellow-400 text-yellow-700': ''} rounded-2xl p-2`}
-        >{card.tag}</span>
+        <span
+          style={{
+            backgroundColor: card.tagStyle?.bgColor,
+            color: card.tagStyle?.textColor,
+            borderRadius: card.tagStyle?.borderRadius,
+            padding: "4px 12px",
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: "12px",
+            fontWeight: "500"
+          }}
+        >
+          {card.tag}
+        </span>
       </div>
       <h1 className='text-3xl'>{card.name}</h1>
       <p className='min-h-15'>{card.description}</p>

@@ -1,74 +1,110 @@
 [
   {
     "id": 1,
-    "name": "Resume Builder Pro",
-    "description": "Create professional resumes with AI-powered suggestions and modern templates.",
-    "price": 9,
+    "name": "CV Craft Studio",
+    "description": "Design impressive resumes with smart AI suggestions and sleek layouts.",
+    "price": 11,
     "period": "monthly",
-    "tag": "popular",
+    "tag": "trending",
     "tagType": "popular",
-    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
-    "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4"
+    "tagStyle": {
+      "bgColor": "#FFE4E6",
+      "textColor": "#E11D48",
+      "borderRadius": "999px",
+      "padding": "4px 10px"
+    },
+    "features": ["120+ layouts", "Smart keyword boost", "PDF & DOC export"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135768.png",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
   },
   {
     "id": 2,
-    "name": "Portfolio Website Kit",
-    "description": "Launch your personal portfolio with ready-made sections and hosting support.",
-    "price": 60,
+    "name": "Personal Brand Website Pack",
+    "description": "Build a stunning personal site with pre-built sections and easy hosting.",
+    "price": 55,
     "period": "one-time",
-    "tag": "best seller",
+    "tag": "top rated",
     "tagType": "best seller",
-    "features": ["Custom domains", "Responsive design", "SEO optimized"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
-    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d"
+    "tagStyle": {
+      "bgColor": "#ECFDF5",
+      "textColor": "#059669",
+      "borderRadius": "999px",
+      "padding": "4px 10px"
+    },
+    "features": ["Free domain setup", "Mobile friendly", "Search optimized"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055672.png",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
   },
   {
     "id": 3,
-    "name": "Job Tracker",
-    "description": "Track your job applications and manage interviews efficiently.",
-    "price": 40,
+    "name": "Career Flow Manager",
+    "description": "Organize job applications and keep track of your hiring progress.",
+    "price": 35,
     "period": "monthly",
-    "tag": "new",
+    "tag": "latest",
     "tagType": "new",
-    "features": ["Application tracking", "Interview reminders", "Company notes"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828817.png",
-    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f"
+    "tagStyle": {
+      "bgColor": "#EFF6FF",
+      "textColor": "#2563EB",
+      "borderRadius": "999px",
+      "padding": "4px 10px"
+    },
+    "features": ["Application dashboard", "Interview alerts", "Notes & logs"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4"
   },
   {
     "id": 4,
-    "name": "Cover Letter Generator",
-    "description": "Generate tailored cover letters in seconds using AI.",
-    "price": 20,
+    "name": "Smart Cover Writer",
+    "description": "Instantly create personalized cover letters powered by AI tools.",
+    "price": 18,
     "period": "yearly",
-    "tag": "popular",
+    "tag": "hot",
     "tagType": "popular",
-    "features": ["AI writing assistant", "Custom templates", "Download options"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png",
-    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a"
+    "tagStyle": {
+      "bgColor": "#FFF7ED",
+      "textColor": "#EA580C",
+      "borderRadius": "999px",
+      "padding": "4px 10px"
+    },
+    "features": ["Auto writing tool", "Editable formats", "Download support"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2921/2921226.png",
+    "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334"
   },
   {
     "id": 5,
-    "name": "LinkedIn Optimizer",
-    "description": "Improve your LinkedIn profile visibility and engagement.",
-    "price": 15,
+    "name": "Profile Booster Pro",
+    "description": "Enhance your professional profile to attract more recruiters.",
+    "price": 17,
     "period": "monthly",
-    "tag": "best seller",
+    "tag": "top choice",
     "tagType": "best seller",
-    "features": ["Profile analysis", "Keyword suggestions", "Headline generator"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
-    "image": "https://images.unsplash.com/photo-1611944212129-29977ae1398c"
+    "tagStyle": {
+      "bgColor": "#F5F3FF",
+      "textColor": "#7C3AED",
+      "borderRadius": "999px",
+      "padding": "4px 10px"
+    },
+    "features": ["Profile insights", "SEO keywords", "Headline creator"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/174/174855.png",
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e"
   },
   {
     "id": 6,
-    "name": "Interview Prep Kit",
-    "description": "Practice and prepare for interviews with curated questions and tips.",
-    "price": 30,
+    "name": "Interview Master Toolkit",
+    "description": "Get ready for interviews with guided practice and expert advice.",
+    "price": 28,
     "period": "one-time",
-    "tag": "new",
+    "tag": "just launched",
     "tagType": "new",
-    "features": ["Mock interviews", "Common Q&A", "Expert tips"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/3062/3062634.png",
-    "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df"
+    "tagStyle": {
+      "bgColor": "#F0FDF4",
+      "textColor": "#16A34A",
+      "borderRadius": "999px",
+      "padding": "4px 10px"
+    },
+    "features": ["Practice sessions", "Top questions", "Pro strategies"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3062/3062625.png",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
   }
 ]
